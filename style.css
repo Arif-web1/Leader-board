@@ -119,3 +119,24 @@ height: 117px;}
             color: #A2A2A2;}
 
             .icon>p>i{color: #FF4A60;}
+
+            /* media query mobile  */
+            @media screen and (max-width: 688px){
+                .top-blogs-player{width: 100%;}
+                .top-players{display: grid;
+                    grid-template-columns: repeat(1,1fr);
+                    }
+                    .four-blog{display: grid;
+                    grid-template-columns: repeat(1,1fr);}
+                    .lastest-course{width: 100%;
+                    }
+                    .container{display: grid;
+                    grid-template-columns: repeat(1,1fr);}
+                    .nav{
+                    width: 100%;}
+                    .width{width: 100%;}
+                    .link>ul{gap: 10px;}
+                    
+                    .logo{font-size: 8px;}
+                    }
+            
